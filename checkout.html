@@ -1,0 +1,58 @@
+ <html>
+	<head>
+		<title>Check Out</title>
+		<link href="checkout.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sub-container">
+				<h1>Checkout form</h1>
+				<form>
+					<span><img src="img/user.png" height="40" width="40"/></span>
+					<input type="text" class="user" placeholder=" First Name"/>
+					<span><img src="img/user.png" height="40" width="40"/></span>
+					<input type="text" class="user" placeholder="Last Name"/>
+					<br/>
+					<span><img src="img/email.png" width="40" height="40"/></span>
+					<input type="text" placeholder="Email" class="user"/>
+					<span><img src="img/phone.png" width="40" height="40"/></span>
+					<input type="text" placeholder="Phone" class="user"/>
+					<br/>
+					<select class="combobox">
+						<option selected value="Country">Country</option>
+						<option>Pakistan</option>
+						<option>India</option>
+						<option>U.S.A</option>
+					</select>
+					<input type="text"class="city" placeholder="City"/>
+					<input type="text" class="post-code" placeholder="Post code"/>
+					<br/>
+					<input type="text" placeholder="Address" class="address"/>
+					<br/>
+					<input type="text" placeholder="Additional info" class="additional-info"/>
+					<br>
+					<h1>Card Details</h1>
+					<div class="bullets">
+							<input type="radio" name="r-btn">
+						<label>Visa </label><br/><br/>
+						<input type="radio" name="r-btn"><label>Master Card </label><br/><br/>
+						<input type="radio" name="r-btn"><label>Paypal</label>
+					</div>
+					<div class="card-info">
+						<input type="text" class="card-name" placeholder="Name on card"/><br/>
+						<input type="text" class="card-number" placeholder="Card Number"/>
+						<input type="text" class="cvv2" placeholder="CVV2"/><br/>
+						<select class="combobox2">
+							<option selected value="Country">Card exp month</option>
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+						</select>
+						<input type="text" class="year" placeholder="Year"/><br/>					
+					</div>				
+				</form>
+			</div>
+			<div class="last"></div>
+			<input type="submit" class="submit-req" value="SUBMIT REQUEST"/>
+	</body>
+ </html>

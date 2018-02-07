@@ -1,0 +1,135 @@
+/*css document
+*/
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color:rgb(237,237,237);
+}
+.container{
+	width:1024px;
+	height:989px;
+	margin:0 auto;
+	box-shadow:0 0 5px 6px rgb(244,244,244);
+	background-color:#fff;
+}
+.container > .sub-container > h1,form h1{
+	letter-spacing:1px;
+	font-size:40px;
+	font-weight:lighter;
+	color:rgb(115,98,112);
+}
+.container > .sub-container > h1{
+	font-family:Calibri;
+}
+form h1{
+	margin:50px 0 0 4%;
+	font-family:arial;
+	color:rgb(17,21,22);
+	text-shadow:0 0 1px rgb(17,21,22);
+}
+.sub-container{
+	margin-top:10px;
+	margin-left:10px;
+}
+form .user,.combobox,
+.city,.post-code,.address,
+.additional-info,.card-name,
+.card-number,.cvv2,.combobox2,.year{
+	margin-bottom:10px;
+	height:50px;
+	border:2px solid black;
+	font-family:calibri;
+	font-size:20px;
+	border-left:0px;
+	border-right:0px;
+	border-top:10px;
+	color:rgb(115,98,112);
+	border-bottom-color:rgb(115,98,112);
+}
+.user{
+	margin-left:40px;
+	transition: padding-top 0.2s ease;	
+}
+.city{
+	margin-left:30px;
+}
+form  span img,h1,.combobox,.address,.additional-info{
+	margin-left:4%;
+	margin-top:10px;
+}
+.user,.combobox,.city{
+	width:35%;
+}
+.post-code{
+	width:15%;
+	margin-left:20px;
+}
+.address,.additional-info{
+	width:91%;
+}
+.bullets,.card-info{
+	border:0px solid black;
+	float:left;
+	margin-left:14%;
+	margin-top:4%;
+}
+.bullets{
+	margin-top:78px;
+	width:15%;
+}
+.card-info{
+	width:52%;
+}
+.card-info input{
+	margin-top:20px;
+}
+.bullets input{
+	width:20px;
+	height:20px;
+	color:rgb(115,98,112);
+	border-radius:50%;
+	
+}
+.bullets input +label{
+	font-size:20px;
+	margin-left:10px;
+	color:rgb(115,98,112);
+	font-family:calibri;
+}
+.card-name{
+	width:100%;
+}
+.card-number{
+	width:75%;
+}.cvv2{
+	width:20%;
+	margin-left:4%;
+}
+.combobox2,.year{
+	width:48%;
+}
+.year{
+	margin-left:15px;
+}
+.last{
+	border:2px solid black;
+	border-right-width:0;
+	border-left-width:0;
+	border-top-width:0;
+	border-bottom-style:solid;
+	border-bottom-color:rgb(237,237,237);
+	width:100%;
+	height:33%;
+}
+.submit-req{
+	width:20%;
+	margin-left:75%;
+	margin-top:27px;
+	padding:10px;
+	color:white;
+	border:1px solid rgb(38,166,154);
+	background-color:rgb(38,166,154);
+	font-size:16px;
+	
+}
