@@ -133,3 +133,41 @@ form  span img,h1,.combobox,.address,.additional-info{
 	font-size:16px;
 	
 }
+
+input::-webkit-input-placeholder{
+	-webkit-transition: all 0s ease-in-out;
+}
+input:focus::-webkit-input-placeholder{
+ color: #1abc9c;
+ font-size: 11px;
+ -webkit-transform: translateY(-20px);
+ transition:0.5s;
+}
+
+input:focus,select:focus{
+	outline:none;
+	border-bottom:none;
+	-webkit-animation:fill 2s  ease-in-out forwards;
+}
+
+@-webkit-keyframes fill{
+	0%{
+		border-bottom-width:0%;
+		border-bottom:2px solid green;
+		outline:none;
+		border-left-style:none;
+		border-right-style:none;
+		border-top-style:none;
+	}
+	
+	
+	100%
+	{
+		border-bottom-width:2%;
+		border-bottom:2px solid green;
+		outline:none;
+		border-left-style:none;
+		border-right-style:none;
+		border-top-style:none;
+	}
+}
